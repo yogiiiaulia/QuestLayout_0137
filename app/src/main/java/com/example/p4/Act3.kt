@@ -55,4 +55,7 @@ fun ActivitasPertama(
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
-        ) }
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            )
