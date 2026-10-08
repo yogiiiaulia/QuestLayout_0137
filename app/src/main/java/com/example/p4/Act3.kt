@@ -71,3 +71,34 @@ fun ActivitasPertama(
 
                 Spacer(modifier = Modifier.width(16.dp))
 
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama),
+                        fontSize = 24.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White
+                    )
+
+                    Text(
+                        text = stringResource(id = R.string.alamat),
+                        fontSize = 18.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 8.dp)
+                    )
+                }
+            }
+
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 20.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = stringResource(id = R.string.copy),
+                    color = Color.White
+                )
+            }
+        }
+    }
+}
